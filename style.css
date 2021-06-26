@@ -20,14 +20,42 @@ h1{
     float: left;
     margin-left: 20px;
     margin-right: 50px;
+    color: gray;
+
 }
 p{
     font-size: larger;
     color: grey;
+    margin-left: 30px;
+    text-align: center;
 }
 #bear{
-    float: left; 
+    float: center; 
     height: 360px;
     width: 300px;
 
+}
+main { 
+    width: 960px;
+    margin: 30px auto;
+    min-height: 700px;;
+
+}
+nav li {
+    display: inline-block;
+    margin-right: 50px;
+    margin-top: 30px 
+}
+main li {
+    float: left;
+    margin-right: 30px;
+    margin-left: 30px;
+
+}
+footer { 
+    height: 100px;
+    background: pink;
+}
+footer p{
+    padding-top: 30px;
 }
