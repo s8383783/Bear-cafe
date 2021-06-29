@@ -1,61 +1,96 @@
 body{
-    margin: 0px;
-    padding: 0px;
-    font-family: Georgia;
-    color:grey;
-    background-color: white;
-
-
-
-}
-header{
-    background:pink;
-    height: 100px;
-}
-ul{  
-    padding: 0;
     margin: 0;
-}
-h1{
-    float: left;
-    margin-left: 20px;
-    margin-right: 50px;
-    color: gray;
+    padding:0;
+    font-family: Georgia;
+ }
+ 
+ ul{
+     padding:0;
+     margin:0;
+ }
+ 
+ li{
+     list-style: none;
+ }
+ 
+ 
+ 
+ header{
+     background:gray;
+     height: 100px;
+ }
+ 
+ h1{
+     float: left;
+     margin-left: 20px;
+     margin-right: 50px;
+     color: pink;
+     text-shadow: 1px 1px 1px white;
+ }
+ 
+ nav li {
+     display: inline-block;
+     margin-right: 50px;
+     margin-top: 30px;
+ }
+ 
+ nav li a {
+     color: pink;
+     font-size: 20px;
+     text-decoration: none;
+ }
+ 
+ 
+ nav li a:hover{
+     color: white;
+ }
+ 
+ 
+ main{
+     width: 960px;
+     margin: 30px auto;
+     min-height: 700px;;
+ }
+ 
 
-}
-p{
-    font-size: larger;
-    color: grey;
-    margin-left: 30px;
-    text-align: center;
-}
-#bear{
-    float: center; 
-    height: 360px;
+ #bear{
+     height: 450px;
+     width: 960px;
+ }
+ 
+ p{
+     text-align: center;
+ }
+ 
+ #coffee1 {
+    height: 150px;
     width: 300px;
 
 }
-main { 
-    width: 960px;
-    margin: 30px auto;
-    min-height: 700px;;
+#coffee2 {
+    height: 150px;
+    width: 300px;
 
 }
-nav li {
-    display: inline-block;
-    margin-right: 50px;
-    margin-top: 30px 
-}
-main li {
-    float: left;
-    margin-right: 30px;
-    margin-left: 30px;
+#coffee3 {
+    height: 150px;
+    width: 300px;
 
 }
-footer { 
-    height: 100px;
-    background: pink;
-}
-footer p{
-    padding-top: 30px;
-}
+ 
+ main li {
+     float: left;
+     margin-right: 30px;
+     margin-top: 50px;
+ }
+ 
+ 
+ footer{
+     height: 100px;
+     background: gray;
+ }
+ 
+ footer p{
+     padding-top: 30px;
+     color: pink; 
+ }
