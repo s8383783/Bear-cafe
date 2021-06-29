@@ -62,21 +62,10 @@ body{
      text-align: center;
  }
  
- #coffee1 {
-    height: 150px;
-    width: 300px;
-
-}
-#coffee2 {
-    height: 150px;
-    width: 300px;
-
-}
-#coffee3 {
-    height: 150px;
-    width: 300px;
-
-}
+ .coffee{
+        height: 150px;
+        width: 300px;
+ }
  
  main li {
      float: left;
@@ -84,7 +73,11 @@ body{
      margin-top: 50px;
  }
  
+ main li:last-child{
+    margin-right: 0;
+ }
  
+
  footer{
      height: 100px;
      background: gray;
