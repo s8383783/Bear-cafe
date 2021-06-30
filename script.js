@@ -1,10 +1,7 @@
 'use strict'
-function getName() 
-{let name = prompt('What is your name?');
-document.write('Welcome ' + name + '     '+ ',');
-};
 
-function getEmail(){
+let name = prompt('What is your name?');
+document.write('Welcome ' + name + '     '+ ',');
     let email = prompt('Please enter your email. ');
     let confirmation = prompt(' Is this your email? ' +' ' + email);
     if (confirmation === 'Y') {
@@ -15,7 +12,5 @@ function getEmail(){
 }
 
 
-}
 
-document.write(getName)
-document.write(getEmail)
+
